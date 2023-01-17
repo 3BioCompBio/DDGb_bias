@@ -16,14 +16,17 @@ Here are all supplementary data for DDGb bias paper [1].
 - `./datasets/SK2.csv` is the set of all mutations from SKEMPI 2.0 [2].
 - `./datasets/SK2_nr.csv` is the set of all non-redundant mutations from SKEMPI 2.0 that possess an assigned a ΔΔGb value.
 - `./datasets/SK2_single.csv` is the set of all single mutations from `SK2_nr`.
-- `./datasets/S2536.csv` is our dataset of selected mutations from `SK2_single` (mutations of good resolution and with X-Ray crystallography structure).
+- `./datasets/S2536.csv` is our dataset of selected mutations from `SK2_single` (mutations with a good resolution X-Ray crystallography structure).
 - `./datasets/S2536_balanced.csv` is a subset of `S2536` balanced by mutation type (only 5 random mutations are kept by mutation type).
-- `./datasets/CoV.csv` is the set of all possible mutations on the structure 6M0J studied in [3].
+- `./datasets/CoV.csv` is the set of all possible mutations on the PDB structure 6M0J studied in [3].
 - `./datasets/C380.csv` is the subset of mutations from `CoV` with an assigned ΔΔGb values and located at the interface of the interaction.
 - Predicted values obtained by the six predictors for direct and reverse mutations are computed only for the datasets `S2536` and `C380`.
 
 ### (3.2) Results
 - All statistics about the performances of the predictors are in `./statistics/performances.ods`.
+
+### (3.3) Structures
+All wild-type and mutated PDB structures are available here: www.xxx.com.
 
 
 ## (4) References
