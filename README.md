@@ -26,7 +26,7 @@ Here are all supplementary data for DDGb bias paper [1].
 - All statistics about the performances of the predictors are in `./statistics/performances.ods`.
 
 ### (3.3) Structures
-All wild-type and mutated PDB structures are available here: www.xxx.com.
+All wild-type and mutated PDB structures are available here: http://babylone.3bio.ulb.ac.be/DDGb_bias_structures/
 
 
 ## (4) References
