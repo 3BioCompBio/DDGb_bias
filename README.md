@@ -24,6 +24,7 @@ Here are all supplementary data for DDGb bias paper [1].
 
 ### (3.2) Results
 - All statistics about the performances of the predictors are in `./statistics/performances.ods`.
+- All statistics about the performances of the predictors on S2536-D when partitioned in subsets are in `./statistics/performances_subsets.ods`.
 
 ### (3.3) Structures
 All wild-type and mutated PDB structures are available here: http://babylone.3bio.ulb.ac.be/DDGb_bias_structures/
