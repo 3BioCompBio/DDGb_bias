@@ -16,7 +16,7 @@ Here are all supplementary data for the paper [1].
 ## (3) Content
 
 ### (3.1) Datasets
-All mutations dataset referenced in the paper are uniformed in the same syntax and can be found in `./datasets/`.
+All mutations dataset referenced in the paper and all generated subsets are uniformed in the same syntax and can be found in `./datasets/`.
 All additionally computed mutation's properties are also added to those files.
 
 ### (3.2) Performances
