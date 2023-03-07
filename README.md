@@ -1,5 +1,6 @@
 
-# Supplementary Data: Quantification of biases in predictions of protein-protein binding affinity change upon mutations
+# Supplementary Data:
+# Quantification of biases in predictions of protein-protein binding affinity change upon mutations
 
 
 ## (1) Description
@@ -12,8 +13,8 @@ Université Libre de Bruxelles, 3BIO-CompBio, Computational Biology and Bioinfor
 ## (2) Conventions and units
 - All energy values are in kcal/mol and all temperature values are in K.
 - We use the convention that destabilizing mutations have positive ΔΔGb values.
-- Separator in all `.csv` files is ";" and missing values are marked as "XXX".
-- When a `.csv` cell's property represent a list, the elements are separated by ",".
+- Separator in all `.csv` files is '`;`' and missing values are marked as '`XXX`'.
+- When a `.csv` cell's property represent a list, the elements are separated by '`,`'.
 
 
 ## (3) Content
