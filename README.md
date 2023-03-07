@@ -6,7 +6,7 @@
 Here are all the Supplementary Data related to the paper [1].
 
 Authors: Matsvei Tsishyn, Fabrizio Pucci and Marianne Rooman.
-Université Libre de Bruxelles, 3BIO, Computational Biology and Bioinformatics.
+Université Libre de Bruxelles, 3BIO-CompBio, Computational Biology and Bioinformatics.
 
 
 ## (2) Conventions and units
