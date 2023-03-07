@@ -3,7 +3,7 @@
 
 
 ## (1) Description
-Here are all the Supplementary Data related to the paper [1].
+Here are all the Supplementary Data related to the paper [1] (2023).
 
 Authors: Matsvei Tsishyn, Fabrizio Pucci and Marianne Rooman.  
 Université Libre de Bruxelles, 3BIO-CompBio, Computational Biology and Bioinformatics.
@@ -29,18 +29,23 @@ All additionally computed mutation's properties are also added to those files.
 ### (3.3) Performances
 All evaluations of the performances of the six predictors can be found in `./performances/`.
 
-### (3.4) Structures
-All wild-type and mutated PDB structures are available to download here: http://babylone.3bio.ulb.ac.be/DDGb_bias_structures/  
-We also modelled (with MODELLER) all mutated PDB structures for all mutations from [2] and [3]  
-(including mutations on which we did not tested the predictors).
+### (3.4) Structures (wild-type and mutated)
+NOTE: Due to GitHub memory limitations, the PDB structures can not be stored here.  
+All wild-type and mutated PDB structures from datasets of mutations SKEMPI 2.0 [2] and CoV [3] are available at  http://babylone.3bio.ulb.ac.be/DDGb_bias_structures/.  
+The wild-type structure '6M0J' used in CoV comes directly from the Protein Data Bank (https://www.rcsb.org/structure/6M0J).  
+All other wild-type structures from SKEMPI 2.0 are the one provided by SKEMPI 2.0's authors (rather than from the Protein Data Bank) since they are curated to be as close as possible to the experimental measures of the dataset. Additionally, we corrected some errors in 3 PDB structures (as mentioned in the paper [1]).  
+Mutated PDB structures are all modeled using comparative modeling software MODELLER [4] starting from its corresponding wild-type structure.  
+WARNING: The residues and chains naming may differ between the structures from the Protein Data Bank and the structures provided by SKEMPI 2.0. And the residues and the chains naming between wild-type and mutated PDB structures may also differ.
 
 ### (3.5) Mutually-reversed complexes (mutations)
 All pairs of mutually-reversed complexes and related information can be found in `./mutually_reversed_mutations/`.
 
 
 ## (4) References
-  [1] Tsishyn, M., Pucci, F., Rooman, M (2023). Quantification of biases in predictions of protein-protein binding affinity change upon mutations.
+  [1] Tsishyn, M., Pucci, F., & Rooman, M. (2023). Quantification of biases in predictions of protein-protein binding affinity change upon mutations.
 
   [2] Jankauskaitė, J., Jiménez-García, B., Dapkūnas, J., Fernández-Recio, J., & Moal, I. H. (2019). SKEMPI 2.0: an updated benchmark of changes in protein–protein binding energy, kinetics and thermodynamics upon mutation. Bioinformatics, 35(3), 462-469.
 
   [3] Starr, T. N., Greaney, A. J., Hilton, S. K., Ellis, D., Crawford, K. H., Dingens, A. S., ... & Bloom, J. D. (2020). Deep mutational scanning of SARS-CoV-2 receptor binding domain reveals constraints on folding and ACE2 binding. cell, 182(5), 1295-1310.
+
+  [4] Webb, B., & Sali, A. (2016). Comparative protein structure modeling using MODELLER. Current protocols in bioinformatics, 54(1), 5-6.
