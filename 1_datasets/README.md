@@ -17,6 +17,6 @@
 in one entry in order to avoir redundancies. The list of all initial SKEMPI 2.0 entries (from `SK2.csv`) used to form the aggregated entry
 can be tracked back using the "Entry" property.
 - For SKEMPI 2.0 derived mutations, property `Mutation(s)` match the residue and chain id in the SKEMPI 2.0 provided PDB structure while
-the property `Mutation(s)_inPaper` match the residue and chain id to the PDB structure found in the Protein Data Bank.
-- References are expressed as a PubMed id when it is possible to find one.
+the property `Mutation(s)_inPaper` match the residue and chain id in the PDB structure found in the Protein Data Bank.
+- References are expressed as a PuBMed id when it is possible to find one.
 - All properties ending with the suffix "_rev" concerns the reversed mutation (using the mutated modeled structure).
