@@ -33,9 +33,8 @@ All evaluations of the performances of the six predictors can be found in `./per
 NOTE: Due to GitHub memory limitations, the PDB structures can not be stored here.  
 All wild-type and mutated PDB structures from datasets of mutations SKEMPI 2.0 [2] and CoV [3] are available at  http://babylone.3bio.ulb.ac.be/DDGb_bias_structures/.  
 The wild-type structure '6M0J' used in CoV comes directly from the Protein Data Bank (https://www.rcsb.org/structure/6M0J).  
-All other wild-type structures from SKEMPI 2.0 are the one provided by SKEMPI 2.0's authors (rather than from the Protein Data Bank) since they are curated to be as close as possible to the experimental measures of the dataset. Additionally, we corrected some errors in 3 PDB structures (as mentioned in the paper [1]).  
-Mutated PDB structures are all modeled using comparative modeling software MODELLER [4] starting from its corresponding wild-type structure.  
-WARNING: The residues and chains naming may differ between the structures from the Protein Data Bank and the structures provided by SKEMPI 2.0. And the residues and the chains naming between wild-type and mutated PDB structures may also differ.
+All other wild-type structures from SKEMPI 2.0 are the one provided by SKEMPI 2.0's authors (rather than from the Protein Data Bank) since they are curated to be as close as possible to the experimental measures of the dataset. Additionally, we corrected some errors in a few PDB structures (as mentioned in the paper [1]).  
+Mutated PDB structures are all modeled using comparative modeling software MODELLER [4] starting from its corresponding wild-type structure.
 
 ### (3.5) Mutually-reversed complexes (mutations)
 All pairs of mutually-reversed complexes and related information can be found in `./mutually_reversed_mutations/`.
