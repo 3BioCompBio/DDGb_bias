@@ -22,7 +22,7 @@ For additional information and precisions, each data-folder contains its own `RE
 All mutations datasets referenced in the paper and all relative subsets can be found in `./1_datasets/` as well as additional mutations' properties (such as RSA and predicted ΔΔGb values).
 
 ### (3.2) Predictors' main training datasets
-...
+The main training datasets of the predictors mCSM-PPI2, MutaBind2, BeAtMuSiC, SSIPe and NetTree can be found in `./2_predictors_datasets/`.
 
 ### (3.3) Performances
 All evaluations of the performances of the six predictors can be found in `./performances/`.
