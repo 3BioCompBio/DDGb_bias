@@ -19,7 +19,7 @@ Université Libre de Bruxelles, 3BIO-CompBio, Computational Biology and Bioinfor
 For additional information and precisions, each data-folder contains its own `README.md`.
 
 ### (3.1) Datasets
-All mutations datasets referenced in the paper and all generated subsets can be found in `./1_datasets/` as well as additional mutation's properties (such as RSA and predictred ΔΔGb values).
+All mutations datasets referenced in the paper and all relative subsets can be found in `./1_datasets/` as well as additional mutations' properties (such as RSA and predicted ΔΔGb values).
 
 ### (3.2) Predictors' main training datasets
 ...
