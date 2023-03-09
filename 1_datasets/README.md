@@ -3,13 +3,13 @@
 
 Datasets `S2536.csv` and `C380.csv` are our two main benchmark datasets. Predicted ΔΔGb values computed by the six predictors are assigned only for those two datasets.
 
-### SKEMPI 2.0 [2] based datasets
+#### SKEMPI 2.0 [2] based datasets
 - `SK2.csv` is the set of all mutations from SKEMPI 2.0 [2].
 - `SK2_nr.csv` is the set of all non-redundant mutations from SKEMPI 2.0 that possess an assigned ΔΔGb value.
 - `S4193.csv` is the set of all single mutations from `SK2_nr.csv`.
 - `S2536.csv` is our first benchmark dataset of selected mutations from `S4193.csv`, which are mutations with a good resolution X-Ray crystallography PDB structure.
 
-### CoV [3] based datasets
+#### CoV [3] based datasets
 - `CoV.csv` is the set of all possible mutations from CoV [3] which mutated residue is contained in the PDB structure '6M0J'.
 - `C380.csv` is the subset of mutations from `CoV.csv` located at the interface of the interaction.
 
