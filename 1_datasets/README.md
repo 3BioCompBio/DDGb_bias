@@ -1,22 +1,20 @@
 
-## Content
+## Datasets
 
-- `PDB.csv` contains some summary information about all used PDB structures in the paper.
+Datasets `S2536.csv` and `C380.csv` are our two main benchmark datasets. Predicted ΔΔGb values computed by the six predictors are assigned only for those two datasets.
+
+### SKEMPI 2.0 [2] based datasets
 - `SK2.csv` is the set of all mutations from SKEMPI 2.0 [2].
-- `SK2_nr.csv` is the set of all non-redundant mutations from SKEMPI 2.0 that possess an assigned a ΔΔGb value.
-- `SK2_single.csv` is the set of all single mutations from `SK2_nr`.
-- `S2536.csv` is our dataset of selected mutations from `SK2_single` (mutations with a good resolution X-Ray crystallography structure).
-- `S2536_balanced.csv` is a subset of `S2536` balanced by mutation type (only 5 random mutations are kept by mutation type).
-- `CoV.csv` is the set of all possible mutations on the PDB structure 6M0J studied in [3].
-- `C380.csv` is the subset of mutations from `CoV` with an assigned ΔΔGb values and located at the interface of the interaction.
+- `SK2_nr.csv` is the set of all non-redundant mutations from SKEMPI 2.0 that possess an assigned ΔΔGb value.
+- `S4193.csv` is the set of all single mutations from `SK2_nr.csv`.
+- `S2536.csv` is our first benchmark dataset of selected mutations from `S4193.csv`, which are mutations with a good resolution X-Ray crystallography PDB structure.
+
+### CoV [3] based datasets
+- `CoV.csv` is the set of all possible mutations from CoV [3] which mutated residue is contained in the PDB structure '6M0J'.
+- `C380.csv` is the subset of mutations from `CoV.csv` located at the interface of the interaction.
 
 ## Notes
-
-- Predicted values obtained by the six predictors for direct and reverse mutations are computed only for the datasets `S2536` and `C380`.
-- In cases when multiple SKEMPI 2.0 entries represent the same mutations (same mutation on the same PDB), those values where aggregated
-in one entry in order to avoir redundancies. The list of all initial SKEMPI 2.0 entries (from `SK2.csv`) used to form the aggregated entry
-can be tracked back using the "Entry" property.
-- For SKEMPI 2.0 derived mutations, property `Mutation(s)` match the residue and chain id in the SKEMPI 2.0 provided PDB structure while
-the property `Mutation(s)_inPaper` match the residue and chain id in the PDB structure found in the Protein Data Bank.
-- References are expressed as a PuBMed id when it is possible to find one.
-- All properties ending with the suffix "_rev" concerns the reversed mutation (using the mutated modeled structure).
+- Property `Entry` allow to relate each entry from a subset to corresponding initial entry or set of entries from its parent dataset. This can be useful in cases when multiple redundant entries (same mutation on same PDB) from `SK2.csv` generate a single entry in our benchmark dataset `S2536.csv`.
+- Property `Mutation(s)` provide the residue and chain id of the mutation with respect to the SKEMPI 2.0 provided PDB while property `Mutation(s)_inPaper` provide the residue and chain id of the mutation with respect to the PDB from the Protein Data Bank.
+- References are expressed as PuBMed-ids (when it exists).
+- All properties ending with the suffix '_rev' concerns the reversed mutation on the mutated modeled PDB structure.

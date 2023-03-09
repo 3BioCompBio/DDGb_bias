@@ -12,16 +12,14 @@ Université Libre de Bruxelles, 3BIO-CompBio, Computational Biology and Bioinfor
 ## (2) Conventions and units
 - All energy values are in kcal/mol and all temperature values are in K.
 - We use the convention that destabilizing mutations have positive ΔΔGb values.
-- Separator in all `.csv` files is ';' and missing values are marked as 'XXX'.
-- When a `.csv` cell's property represent a list, the elements are separated by ','.
+- Separator in all `.csv` files is ';' and missing values are marked as 'XXX'. When a `.csv` cell's value represent a list, the elements are separated by ','.
 
 
 ## (3) Content
 For additional information and precisions, each data-folder contains its own `README.md`.
 
 ### (3.1) Datasets
-All mutations dataset referenced in the paper and all generated subsets are uniformed in the same syntax and can be found in `./datasets/`.  
-All additionally computed mutation's properties are also added to those files.
+All mutations datasets referenced in the paper and all generated subsets can be found in `./1_datasets/` as well as additional mutation's properties (such as RSA and predictred ΔΔGb values).
 
 ### (3.2) Predictors' main training datasets
 ...
