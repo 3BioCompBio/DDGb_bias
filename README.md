@@ -3,9 +3,9 @@
 
 
 ## (1) Description
-Here are all the Supplementary Data related to the paper [1] (2023).
+Here are all the **Supplementary Data** related to the paper [1] (2023).
 
-Authors: Matsvei Tsishyn, Fabrizio Pucci and Marianne Rooman.  
+**Authors**: Matsvei Tsishyn, Fabrizio Pucci and Marianne Rooman.  
 Université Libre de Bruxelles, 3BIO-CompBio, Computational Biology and Bioinformatics.
 
 
@@ -16,7 +16,6 @@ Université Libre de Bruxelles, 3BIO-CompBio, Computational Biology and Bioinfor
 
 
 ## (3) Content
-For additional information and precisions, each data-folder contains its own `README.md`.
 
 ### (3.1) Datasets
 All mutations datasets referenced in the paper and all relative subsets can be found in `./1_datasets/` as well as additional mutations' properties (such as RSA and predicted ΔΔGb values).
@@ -30,12 +29,7 @@ All evaluations of the performances of the six predictors on `S2536` and `C380` 
 ### (3.4) Structures (wild-type and mutated)
 NOTE: Due to GitHub memory limitations, the PDB structures can not be stored here.  
 All wild-type and mutated PDB structures from datasets of mutations SKEMPI 2.0 [2] and CoV [3] are available at  http://babylone.3bio.ulb.ac.be/DDGb_bias_structures/.  
-The wild-type structure '6M0J' used in CoV comes directly from the Protein Data Bank (https://www.rcsb.org/structure/6M0J).  
-All other wild-type structures from SKEMPI 2.0 are the one provided by SKEMPI 2.0's authors (rather than from the Protein Data Bank) since they are curated to be as close as possible to the experimental measures of the dataset. Additionally, we corrected some errors in a few PDB structures (as mentioned in the paper [1]).  
 Mutated PDB structures are all modeled using comparative modeling software MODELLER [4] starting from its corresponding wild-type structure.
-
-### (3.5) Mutually-reversed complexes (mutations)
-All pairs of mutually-reversed complexes and related information can be found in `./mutually_reversed_mutations/`.
 
 
 ## (4) References
