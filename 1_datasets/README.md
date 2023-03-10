@@ -13,7 +13,7 @@ Datasets `S2536.csv` and `C380.csv` are our two main benchmark datasets. Predict
 - `CoV.csv` is the set of all possible mutations from CoV [3] which mutated residue is contained in the PDB structure '6M0J'.
 - `C380.csv` is the subset of mutations from `CoV.csv` located at the interface of the interaction.
 
-#### Mutually reversed complexes from SKEMPI 2.0 (SK2_sym)
+#### SK2_sym: Mutually reversed complexes from SKEMPI 2.0
 - `SK2_sym.csv` is set of pairs of complexes from SKEMPI 2.0 that are separated by a single mutation.  
 - **WARNING**: Some of the pairs of complexes do not correspond to an mutation from SKEMPI 2.0 and thus do not have an assigned ΔΔGb value. However they can still be useful, for example to test the symmetry of a prediction: ΔΔGb(A->B) + ΔΔGb(B->A) = 0.
 - **WARNING**: **Some of the pairs of complexes have more differences than a single mutations** such as the presence of a modified amino acid, some missing residues or an additional mutation in a different chains far from the interface. Such differences are specified in the dataset.
