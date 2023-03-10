@@ -25,7 +25,7 @@ All mutations datasets referenced in the paper and all relative subsets can be f
 The main training datasets of the predictors mCSM-PPI2, MutaBind2, BeAtMuSiC, SSIPe and NetTree can be found in `./2_predictors_datasets/`.
 
 ### (3.3) Performances
-All evaluations of the performances of the six predictors can be found in `./performances/`.
+All evaluations of the performances of the six predictors on `S2536` and `C380` as well as on subsets of `S2536` (such as to alanine mutations vs. to non-alanine mutations) can be found in `./performances/`.
 
 ### (3.4) Structures (wild-type and mutated)
 NOTE: Due to GitHub memory limitations, the PDB structures can not be stored here.  
