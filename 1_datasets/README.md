@@ -16,8 +16,8 @@ Datasets `S2536.csv` and `C380.csv` are our two main benchmark datasets. Predict
 #### SK2_sym: Mutually reversed complexes from SKEMPI 2.0
 - `SK2_sym.csv` is set of pairs of complexes from SKEMPI 2.0 that are separated by a single mutation.  
 - **WARNING**: Some of the pairs of complexes do not correspond to an mutation from SKEMPI 2.0 and thus do not have an assigned ΔΔGb value. However they can still be useful, for example to test the symmetry of a prediction: ΔΔGb(A->B) + ΔΔGb(B->A) = 0.
-- **WARNING**: **Some of the pairs of complexes have more differences than a single mutations** such as the presence of a modified amino acid, some missing residues or an additional mutation in a different chains far from the interface. Such differences are specified in the dataset.
-We kept those entries in the dataset, however we strongly suggest to apply filter depending on your requirements. To help the reader to locate and specify the nature of those differences, chain-by-chain alignments of similar complexes are provided in `SK2_sym_alignments.zip`.
+- **WARNING**: **Some of the pairs of complexes have more differences than a single mutation** such as the presence of a modified amino acid, some missing residues or additional mutation(s) far from the interface. Such differences are specified in the dataset.
+We kept those entries in the dataset, however we strongly suggest to apply filter depending on your requirements. To help the reader to locate and specify the nature of those differences, chain-by-chain alignments of similar complexes are provided in `SK2_sym_alignments.zip`. The alignments are done using SEQRES lines of the PDB.
 
 ## Notes
 - Property `Entry` allows to link each entry from a subset to its corresponding initial entry or set of entries from its parent dataset. This can be useful in cases when multiple redundant entries (same mutation on same PDB) from `SK2.csv` generate a single entry in our benchmark dataset `S2536.csv`.
