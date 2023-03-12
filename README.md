@@ -18,7 +18,7 @@ Université Libre de Bruxelles, 3BIO-CompBio, Computational Biology and Bioinfor
 ## Content
 
 ### (1) Datasets
-All mutations datasets referenced in the paper and all relative subsets can be found in `./1_datasets/` as well as additional mutations' properties (such as RSA and predicted ΔΔGb values).
+All mutations datasets referenced in the paper and all relative subsets can be found in `./1_datasets/` as well as additional mutations' properties (such as RSA, structural region, secondary structure and predicted ΔΔGb values).
 
 ### (2) Predictors' main training datasets
 The main training datasets of the predictors mCSM-PPI2, MutaBind2, BeAtMuSiC, SSIPe and NetTree can be found in `./2_predictors_datasets/`.
@@ -28,7 +28,7 @@ All evaluations of the performances of the six predictors on `S2536` and `C380` 
 
 ### (4) Structures (wild-type and mutated)
 Due to GitHub memory limitations, the PDB structures can not be stored here.  
-All wild-type and mutated PDB structures from datasets of mutations SKEMPI 2.0 [2] and CoV [3] are available at  http://babylone.3bio.ulb.ac.be/DDGb_bias_structures/.  
+All wild-type and mutated PDB structures from datasets of mutations SKEMPI 2.0 [2] and CoV [3] are available at http://babylone.3bio.ulb.ac.be/DDGb_bias_structures/.  
 Mutated PDB structures are all modeled using comparative modeling software MODELLER [4] starting from its corresponding wild-type structure.
 
 
