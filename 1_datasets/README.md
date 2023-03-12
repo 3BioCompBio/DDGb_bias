@@ -10,8 +10,8 @@ Datasets `S2536.csv` and `C380.csv` are our two main benchmark datasets. Predict
 - `S2536.csv` is the subset of mutations from `S4193.csv` with a good resolution X-Ray crystallography PDB structure.
 
 #### CoV [3] based datasets
-- `CoV.csv` is the set of all mutations from CoV [3] which mutated residue is contained in the PDB structure '6M0J'.
-- `C380.csv` is the subset of mutations from `CoV.csv` located at the interface of the interaction.
+- `C3684.csv` is the set of all mutations from CoV [3] which mutated residue is contained in the PDB structure '6M0J'.
+- `C380.csv` is the subset of mutations from `C3684.csv` located at the interface of the interaction.
 
 #### SK2_sym: Mutually reversed complexes from SKEMPI 2.0
 - `SK2_sym.csv` is set of pairs of complexes from SKEMPI 2.0 that are separated by a single mutation.  
