@@ -3,7 +3,7 @@
 
 ## Description
 
-Here are all the **Supplementary Data** related to the paper [1] (2023).
+Here are all the **Supplementary Data** related to the paper [1] (2023) <https://www.biorxiv.org/content/10.1101/2023.08.04.551687v1>.
 
 **Authors**: Matsvei Tsishyn, Fabrizio Pucci and Marianne Rooman.
 
@@ -21,7 +21,7 @@ All mutations datasets referenced in the paper and all relative subsets can be f
 
 ### (2) Performances
 
-All evaluations of the performances of the six predictors on `S2536` and `C380` as well as on subsets of `S2536` (such as to alanine mutations vs. to non-alanine mutations) can be found in `./performances/`.
+All evaluations of the performances of the eight predictors on `S2536` and `C380` as well as on subsets of `S2536` (such as to alanine mutations vs. to non-alanine mutations) can be found in `./performances/`.
 
 ### (3) Structures (wild-type and mutated)
 
