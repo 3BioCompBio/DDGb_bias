@@ -3,7 +3,7 @@
 
 ## Description
 
-Here are all the **Supplementary Data** related to the paper [1] (2023) <https://www.biorxiv.org/content/10.1101/2023.08.04.551687v1>.
+Here are all the **Supplementary Data** related to the paper [1] (2023) <https://academic.oup.com/bib/article/25/1/bbad491/7513597>.
 
 **Authors**: Matsvei Tsishyn, Fabrizio Pucci and Marianne Rooman.
 
@@ -31,7 +31,7 @@ Mutated PDB structures are all modeled using comparative modeling software MODEL
 
 ## References
 
-  [1] Tsishyn, M., Pucci, F., & Rooman, M. (2023). Quantification of biases in predictions of protein-protein binding affinity changes upon mutations.
+  [1] Tsishyn, M., Pucci, F., & Rooman, M. (2023). Quantification of biases in predictions of protein-protein binding affinity changes upon mutations. Briefings in bioinformatics, 25(1), bbad491.
 
   [2] Jankauskaitė, J., Jiménez-García, B., Dapkūnas, J., Fernández-Recio, J., & Moal, I. H. (2019). SKEMPI 2.0: an updated benchmark of changes in protein–protein binding energy, kinetics and thermodynamics upon mutation. Bioinformatics, 35(3), 462-469.
 
